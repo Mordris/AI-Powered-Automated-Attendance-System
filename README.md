@@ -1,4 +1,4 @@
-# AI-Powered Automated Attendance System
+# AI-Powered Automated Attendance System (The actual project is in a private repository)
 
 This project implements a robust, scalable, and efficient automated attendance system using facial recognition, designed for educational institutions or organizational settings. It features a Python FastAPI backend, asynchronous operations, GPU-accelerated machine learning via Celery, and real-time feedback through WebSockets.
 
