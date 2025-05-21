@@ -2,11 +2,7 @@
 
 This project implements a robust, scalable, and efficient automated attendance system using facial recognition, designed for educational institutions or organizational settings. It features a Python FastAPI backend, asynchronous operations, GPU-accelerated machine learning via Celery, and real-time feedback through WebSockets.
 
-*(Placeholder for Screenshot 1: e.g., A conceptual overview of the system or the camera client in action)*
-`![System Overview Placeholder](link_to_your_conceptual_overview_image.png)`
 
-*(Placeholder for Screenshot 2: e.g., A mock-up of the planned Admin Panel or a detail of the real-time feedback)*
-`![Admin Panel Mock-up Placeholder](link_to_your_admin_panel_mockup_image.png)`
 
 ## Core Features
 
