@@ -125,7 +125,3 @@ The project has a roadmap for further enhancements to achieve full production-re
 3.  **Robust Liveness Detection:** Integrate a production-ready passive liveness detection model.
 4.  **Full OAuth2 Authentication & Granular RBAC:** Implement a more robust and standard authentication/authorization mechanism across the system.
 5.  **Advanced CI/CD and Deployment Strategies:** Mature CI/CD pipelines for blue/green or canary deployments, and further refine production deployment strategies for high availability and resilience.
-
----
-
-This README provides a comprehensive overview of the system's architecture, functionality, and future direction.
