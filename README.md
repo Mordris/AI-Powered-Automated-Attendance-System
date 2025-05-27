@@ -112,7 +112,9 @@ Here's a glimpse of the AI Attendance System's administrative interface:
 - **Performance Optimizations:** TensorRT for ML models, advanced FAISS indexing, database query optimization.
 - **Deployment:** Strategies for deploying to cloud providers (AWS, GCP, Azure).
 
-UNLICENSED SOURCE CODE — STRICT COPYRIGHT NOTICE  
+## LICENSE
+
+STRICT COPYRIGHT NOTICE  
 Copyright (c) 2025 Yunus Emre Gültepe
 
 This source code and all associated files are the exclusive intellectual property of Yunus Emre Gültepe.
