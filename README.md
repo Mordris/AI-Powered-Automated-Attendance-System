@@ -1,4 +1,4 @@
-# AI-Powered Automated Attendance System (AttendAI)
+# AI-Powered Automated Attendance System (AttendAI) [The Original Project is in a Private Repo for now]
 
 AttendAI is a robust, scalable, and efficient automated attendance system using facial recognition. Designed for educational institutions or organizational settings, it provides administrators with comprehensive tools to manage courses, students, and class sessions, and to monitor attendance with real-time feedback and in-depth system observability.
 
