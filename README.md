@@ -4,6 +4,62 @@ AttendAI is a robust, scalable, and efficient automated attendance system using 
 
 The system features a Python FastAPI backend leveraging asynchronous operations, GPU-accelerated machine learning via Celery for tasks like face detection, embedding generation (with data augmentation), and a dynamic FAISS indexing strategy for fast, course-specific recognition. Real-time feedback is provided through WebSockets. A comprehensive monitoring stack using Prometheus, Grafana, and Flower offers insights into system health and performance. The entire application is containerized using Docker and Docker Compose.
 
+## Admin Panel & System Screenshots
+
+_(Consider re-adding your table of screenshots here, or linking to a separate page/directory if it becomes too long for the main README. For now, I'll assume the previous table is still representative.)_
+
+<table>
+  <tr>
+    <td><img src="./docs/screenshots/camera_client.png" alt="Camera Client (Student of that course)" width="400"/></td>
+    <td><img src="./docs/screenshots/camera_client_multiple_faces.png" alt="Camera client (a student and a non-student)" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Camera Client Example</em></td>
+    <td align="center"><em>Camera Client (Multiple Faces)</em></td>
+  </tr>
+  <tr>
+    <td><img src="./docs/screenshots/login_page.png" alt="Admin Login Page" width="400"/></td>
+    <td><img src="./docs/screenshots/dashboard.png" alt="System Dashboard" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Admin Login</em></td>
+    <td align="center"><em>Admin Dashboard</em></td>
+  </tr>
+  <tr>
+    <td><img src="./docs/screenshots/students_list.png" alt="Students Page" width="400"/></td>
+    <td><img src="./docs/screenshots/courses_list.png" alt="Courses Page" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Students Page</em></td>
+    <td align="center"><em>Courses Page</em></td>
+  </tr>
+  <tr>
+    <td><img src="./docs/screenshots/sessions_list.png" alt="Sessions Page" width="400"/></td>
+    <td><img src="./docs/screenshots/session_results.png" alt="Session Result (Attendance) Page" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Sessions Page</em></td>
+    <td align="center"><em>Session Result (Attendance) Page</em></td>
+  </tr>
+  <tr>
+    <td><img src="./docs/screenshots/flower_workers.png" alt="Celery Flower - Workers View" width="400"/></td> <!-- Replace with your actual screenshot -->
+    <td><img src="./docs/screenshots/grafana_node_exporter.png" alt="Grafana - Node Exporter Dashboard" width="400"/></td> <!-- Replace with your actual screenshot -->
+  </tr>
+  <tr>
+    <td align="center"><em>Celery Flower Monitoring</em></td>
+    <td align="center"><em>Grafana - Node Metrics</em></td>
+  </tr>
+   <tr>
+    <td><img src="./docs/screenshots/grafana_gpu_dashboard.png" alt="Grafana - GPU Dashboard" width="400"/></td> <!-- Add this screenshot -->
+    <td><img src="./docs/screenshots/grafana_redis_dashboard.png" alt="Grafana - Redis Dashboard" width="400"/></td> <!-- Add this screenshot -->
+  </tr>
+  <tr>
+    <td align="center"><em>Grafana - GPU Monitoring</em></td>
+    <td align="center"><em>Grafana - Redis Monitoring</em></td>
+  </tr>
+</table>
+(There are more screenshots inside docs/screenshots folder)
+
 ## Core Features
 
 - **Admin-Only Control:** Secure access via JWT-based authentication for all management functionalities.
@@ -62,62 +118,6 @@ The system features a Python FastAPI backend leveraging asynchronous operations,
 - **Dependency Management:** Poetry (backend), NPM (frontend)
 - **Authentication:** OAuth2 Password Bearer flow with JWTs for admin panel.
 - **Core Libraries:** NumPy, Pydantic, Pydantic-Settings.
-
-## Admin Panel & System Screenshots
-
-_(Consider re-adding your table of screenshots here, or linking to a separate page/directory if it becomes too long for the main README. For now, I'll assume the previous table is still representative.)_
-
-<table>
-  <tr>
-    <td><img src="./docs/screenshots/camera_client.png" alt="Camera Client (Student of that course)" width="400"/></td>
-    <td><img src="./docs/screenshots/camera_client_multiple_faces.png" alt="Camera client (a student and a non-student)" width="400"/></td>
-  </tr>
-  <tr>
-    <td align="center"><em>Camera Client Example</em></td>
-    <td align="center"><em>Camera Client (Multiple Faces)</em></td>
-  </tr>
-  <tr>
-    <td><img src="./docs/screenshots/login_page.png" alt="Admin Login Page" width="400"/></td>
-    <td><img src="./docs/screenshots/dashboard.png" alt="System Dashboard" width="400"/></td>
-  </tr>
-  <tr>
-    <td align="center"><em>Admin Login</em></td>
-    <td align="center"><em>Admin Dashboard</em></td>
-  </tr>
-  <tr>
-    <td><img src="./docs/screenshots/students_list.png" alt="Students Page" width="400"/></td>
-    <td><img src="./docs/screenshots/courses_list.png" alt="Courses Page" width="400"/></td>
-  </tr>
-  <tr>
-    <td align="center"><em>Students Page</em></td>
-    <td align="center"><em>Courses Page</em></td>
-  </tr>
-  <tr>
-    <td><img src="./docs/screenshots/sessions_list.png" alt="Sessions Page" width="400"/></td>
-    <td><img src="./docs/screenshots/session_results.png" alt="Session Result (Attendance) Page" width="400"/></td>
-  </tr>
-  <tr>
-    <td align="center"><em>Sessions Page</em></td>
-    <td align="center"><em>Session Result (Attendance) Page</em></td>
-  </tr>
-  <tr>
-    <td><img src="./docs/screenshots/flower_workers.png" alt="Celery Flower - Workers View" width="400"/></td> <!-- Replace with your actual screenshot -->
-    <td><img src="./docs/screenshots/grafana_node_exporter.png" alt="Grafana - Node Exporter Dashboard" width="400"/></td> <!-- Replace with your actual screenshot -->
-  </tr>
-  <tr>
-    <td align="center"><em>Celery Flower Monitoring</em></td>
-    <td align="center"><em>Grafana - Node Metrics</em></td>
-  </tr>
-   <tr>
-    <td><img src="./docs/screenshots/grafana_gpu_dashboard.png" alt="Grafana - GPU Dashboard" width="400"/></td> <!-- Add this screenshot -->
-    <td><img src="./docs/screenshots/grafana_redis_dashboard.png" alt="Grafana - Redis Dashboard" width="400"/></td> <!-- Add this screenshot -->
-  </tr>
-  <tr>
-    <td align="center"><em>Grafana - GPU Monitoring</em></td>
-    <td align="center"><em>Grafana - Redis Monitoring</em></td>
-  </tr>
-</table>
-(There are more screenshots inside docs/screenshots folder)
 
 ## Setup and Installation
 
