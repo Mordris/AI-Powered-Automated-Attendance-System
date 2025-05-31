@@ -6,8 +6,6 @@ The system features a Python FastAPI backend leveraging asynchronous operations,
 
 ## Admin Panel & System Screenshots
 
-_(Consider re-adding your table of screenshots here, or linking to a separate page/directory if it becomes too long for the main README. For now, I'll assume the previous table is still representative.)_
-
 <table>
   <tr>
     <td><img src="./docs/screenshots/camera_client.png" alt="Camera Client (Student of that course)" width="400"/></td>
